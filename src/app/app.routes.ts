@@ -14,6 +14,11 @@ export const routes: Routes = [
                 loadComponent: () => import("./dashboard/pages/change-detections/change-detections.component"),
             },
             {
+                path: "control-flow",
+                title: "control flow",
+                loadComponent: () => import("./dashboard/pages/control-flow/control-flow.component"),
+            },
+            {
                 path: "defer-options",
                 title: "Defer Options",
                 loadComponent: () => import("./dashboard/pages/defer-options/defer-options.component"),
